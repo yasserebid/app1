@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/", (req, res) -> "This is the first jenkins build according to any commit on the main branch using webhook");
+		get("/", (req, res) -> "This is the first jenkins build according to any commit on the main branch using webhook ");
 	}
 }
